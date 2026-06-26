@@ -11,7 +11,7 @@ public class Exercise5 {
         System.out.println(getDayName(day));
     }
 
-    // Get the name for the Week
+    
     public static String getDayName(int day) {
         String dayName = "";
         switch (day) {
