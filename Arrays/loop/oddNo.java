@@ -12,4 +12,4 @@ class Odd_Numbers
 				System.out.println(s);
 		}
 	}
-}
+} 
