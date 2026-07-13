@@ -1,0 +1,7 @@
+arr = [10 ,20 , 5 , 40 , 30]
+largest = second
+for num in arr :
+    if num > largest :
+        second = largest
+        largest = num 
+        print (second)
