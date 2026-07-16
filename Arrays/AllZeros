@@ -1,0 +1,9 @@
+arr = [1 , 0 , 2 ,0 ,3 ,4]
+result =[]
+for num in arr :
+    if num != 0:
+        result.append(num)
+while len(result) < len(arr):
+    result.append(0)
+
+print (result)
