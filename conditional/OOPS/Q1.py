@@ -1,5 +1,5 @@
 class   Facotory:
-    def _intt_(self , material , zips ,pockets):
+    def __intt__(self , material , zips ,pockets):
         self.material = material
         self.zips = zips
         self.pockets = pockets
@@ -9,3 +9,5 @@ class   Facotory:
             print("zips" ,self.zips)
             print("pockets" , self.pockets)
             
+    obj = Facotory("Leather" , 2 ,4 )
+    obj.show()
